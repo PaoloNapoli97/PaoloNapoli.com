@@ -1,6 +1,7 @@
 <template>
-  <div>
-    Portfolio Paolo Napoli
+  <div class="d-flex justify-content-center">
+    <h1>Portfolio Paolo Napoli g</h1>
+    
 
   </div>
 </template>
