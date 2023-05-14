@@ -1,8 +1,8 @@
 <template>
   <!-- <AppHeader/>
   <AppMain/> -->
-  <div class="d-flex text-center">
-    <h1>Zimo Brutto Coglione Frocio</h1>
+  <div class="d-flex">
+    <h1 class="text-center">Zimo Brutto Coglione Frocio</h1>
   </div>
 </template>
 
