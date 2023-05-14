@@ -28,8 +28,11 @@ export default {};
 <style lang="scss" scoped>
 
   header {
+    position: sticky;
+    top: 0;
     background-color: rgba(0, 0, 0, 0.02);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(4px);
+    z-index: 1;
 
     a{
       color: black;

@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="hero d-flex align-items-center justify-content-center flex-column">
-            <!-- <img src="../assets/img/heroImage.png" alt=""> -->
+
             <h1>
                 <span class="symbol"> &#60;</span>
                   Paolo Napoli
@@ -13,7 +13,18 @@
             </div>
         </div>
 
-        
+        <div class="my-works d-flex justify-content-center">
+            <div class="row w-75">
+                <div class="col-6">
+                    <h2>
+                        Alcuni del Miei Progetti
+                    </h2>
+                    <img src="../assets/img/heroImage.png" alt="">
+                </div>
+                <div class="col-6">2</div>
+                
+            </div>
+        </div>
     </div>
 </template>
 
@@ -48,15 +59,27 @@
             }
         }
 
-        img{
-            position: absolute;
-            width: 70%;
-            z-index: -1;
-            // top: 0;
-        }
-
         .writer{
             color: rgb(255, 255, 255);
+        }
+    }
+
+    .my-works{
+        position: relative;
+        padding-top: 300px;
+
+        
+        img{
+            position: absolute;
+            width: 30%;
+            z-index: -1;
+            top: 60%;
+            // right: 5%;
+        }
+
+        h2{
+            color: white;
+            font-size: 50px;
         }
     }
 </style>

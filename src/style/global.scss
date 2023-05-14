@@ -7,5 +7,6 @@ body {
     background: rgb(254,119,74);
     background: linear-gradient(39deg, rgba(254,119,74,1) 0%, rgba(255,123,53,1) 27%, rgba(255,147,57,1) 46%, rgba(255,182,132,1) 64%, rgba(255,222,149,1) 100%);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100vh; 
 }
