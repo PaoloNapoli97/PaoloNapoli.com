@@ -1,9 +1,6 @@
 <template>
-  <!-- <AppHeader/>
-  <AppMain/> -->
-  <div class="d-flex">
-    <h1 class="text-center">Zimo Brutto Coglione Frocio</h1>
-  </div>
+  <AppHeader/>
+  <AppMain/>
 </template>
 
 <script>
