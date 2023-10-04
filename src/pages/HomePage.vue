@@ -9,7 +9,7 @@
             </h1>
 
             <div>
-                <VueWriter class="fs-2 writer" :array="['Web Developer', 'Full Stack Web Developer', 'Front-End Developer', 'Back-End Developer', 'Software Developer', 'Vue Developer', 'Laravel Developer']" :type-speed="80" :erase-speed="50"/>
+                <VueWriter class="fs-2 writer" :array="['Web Developer', 'Full Stack Web Developer', 'Front-End Developer', 'Back-End Developer', 'Software Developer', 'Vue Developer', 'Laravel Developer', 'Learner', 'Open Minded']" :type-speed="80" :erase-speed="50"/>
             </div>
         </div>
 
